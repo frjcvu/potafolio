@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agradecimientos</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #7f8ff4, #c7c9f7);
+      display: flex;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    .sidebar {
+      background-color: #5f6cd9;
+      width: 260px;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 4px 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar img {
+      border-radius: 50%;
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .sidebar h3 {
+      color: white;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+    }
+
+    .sidebar p {
+      font-size: 0.9rem;
+      color: #e2e6ff;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      background-color: #ffffff;
+      color: #5f6cd9;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: #dde0fc;
+      transform: scale(1.05);
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 50px 40px;
+      background-color: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .main-content h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 30px;
+      font-size: 2.7rem;
+    }
+
+    .main-content p {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: #444;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <img src="img/photoyo.jpeg" alt="Mi foto" />
+    <h3>Frida Camila</h3>
+    <p>Colegio Interamericano Irapuato</p>
+    <a href="index.html">Portada</a>
+    <a href="act1.html">Evidencias</a>
+  </div>
+
+  <div class="main-content">
+    <h1>Agradecimientos</h1>
+    <p>
+      Quiero expresar mi más sincero agradecimiento a todas las personas que han formado parte de este camino y me han acompañado con su apoyo, cariño y guía.
+      <br><br>
+      A mi familia, por ser siempre mi base y mi fortaleza. Gracias por cada palabra de aliento, por confiar en mí y por enseñarme el valor del esfuerzo y la dedicación.
+      <br><br>
+      A mis amigos, por compartir conmigo momentos de alegría, por estar presentes en los desafíos y por recordarme siempre que no estoy sola en este proceso.
+      <br><br>
+      A mis profesores, por su compromiso y paciencia, por creer en mis capacidades y por transmitirme no solo conocimiento, sino también inspiración.
+      <br><br>
+      A Dios, por darme la vida, la salud y la oportunidad de seguir creciendo. Por brindarme esperanza incluso en los momentos más inciertos.
+      <br><br>
+      Y al Colegio Interamericano, por ser un espacio donde he podido aprender, descubrir mi vocación y soñar en grande. Gracias por fomentar una educación integral y humana que ha marcado mi vida para siempre.
+      <br><br>
+      A todos, gracias por ser parte de esta etapa tan importante. Llevo conmigo todo lo aprendido, y continúo este camino con gratitud y esperanza.
+    </p>
+  </div>
+</body>
+</html>
