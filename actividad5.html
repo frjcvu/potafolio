@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Competencia 5</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, rgba(127, 143, 244, 0.6), rgba(255, 255, 255, 0.6)), url('img/portada.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh; /* Aseguramos que la página ocupe toda la altura */
+      padding-top: 20px; /* Agregamos un poco de espacio desde la parte superior */
+    }
+
+    .actividad {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 850px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 50px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1s ease;
+    }
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      animation: imagePop 1.3s ease;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .descripcion, .pilar {
+      font-size: 17px;
+      color: #5e5e5e;
+      margin: 20px 0;
+      text-align: justify;
+    }
+
+    .pilar {
+      font-style: italic;
+      color: #7f8ff4;
+      text-align: right;
+    }
+
+    .nav {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      text-decoration: none;
+      background-color: #7f8ff4;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #5f6cd9;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes imagePop {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="actividad">
+      <h1>Entrevista</h1>
+
+      <img src="img/entrevista.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Realizamos una entrevista a una profesora en la que compartió su experiencia profesional en el ámbito empresarial, 
+        sus motivaciones personales y consejos para nuestro desarrollo académico y humano. Esta actividad se relaciona con 
+        la competencia de comunicación asertiva, ya que requirió formular preguntas claras, escuchar activamente y expresar 
+        nuestras ideas de manera respetuosa y significativa. Además, nos permitió establecer un diálogo sincero y enriquecedor 
+        que fortaleció nuestras habilidades para comunicarnos con confianza y empatía en distintos contextos.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Debate</h1>
+
+      <img src="img/debate.jpg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Participamos en un debate acerca de la inclusión de ciertos deportes en los Juegos Olímpicos, 
+        exponiendo argumentos y puntos de vista diversos. Esta actividad se relaciona con la competencia de comunicación asertiva, 
+        ya que desarrollamos la capacidad de expresar opiniones con respeto, defender ideas con fundamentos y escuchar activamente 
+        a los demás.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Kermese de día de muertos</h1>
+
+      <img src="img/kermese.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Como parte de nuestro grupo, fuimos responsables de la planeación y operación de la casa del terror durante la kermés escolar.
+         Esta actividad implicó coordinación entre equipos, distribución de tareas, atención al público y venta de boletos, 
+         lo cual requirió mantener una comunicación clara, respetuosa y efectiva en todo momento. Gracias a ello, 
+         desarrollamos la competencia de comunicación asertiva, ya que logramos expresar ideas, resolver imprevistos 
+         y colaborar de manera organizada, tanto con compañeros como con otros miembros de la comunidad escolar.</p>
+    </div>
+
+    <div class="pilar">
+      Pilar 5: Comunicación asertiva </div>
+
+    <div class="nav">
+      <a href="actividad6.html">Siguiente actividad</a>
+       </div>
+  </div>
+</body>
+</html>
+

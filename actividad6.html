@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Competencia 6</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, rgba(127, 143, 244, 0.6), rgba(255, 255, 255, 0.6)), url('img/portada.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh; /* Aseguramos que la página ocupe toda la altura */
+      padding-top: 20px; /* Agregamos un poco de espacio desde la parte superior */
+    }
+
+    .actividad {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 850px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 50px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1s ease;
+    }
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      animation: imagePop 1.3s ease;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .descripcion, .pilar {
+      font-size: 17px;
+      color: #5e5e5e;
+      margin: 20px 0;
+      text-align: justify;
+    }
+
+    .pilar {
+      font-style: italic;
+      color: #7f8ff4;
+      text-align: right;
+    }
+
+    .nav {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      text-decoration: none;
+      background-color: #7f8ff4;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #5f6cd9;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes imagePop {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="actividad">
+      <h1>Figura en 3D</h1>
+
+      <img src="img/fig3d.png" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>En esta actividad utilizamos un programa de inteligencia artificial para diseñar una pieza en 3D a partir de una descripción escrita. 
+        Posteriormente, el diseño generado fue preparado e impreso con tecnología de impresión 3D. Esta experiencia se relaciona 
+        con la competencia de creatividad y sensibilización artística, ya que nos permitió ejercitar la imaginación, transformar ideas abstractas 
+        en un objeto concreto, y experimentar el proceso creativo desde una nueva perspectiva tecnológica. Además, esta actividad nos 
+        ayudó a sensibilizarnos sobre el potencial del diseño digital para expresar emociones, conceptos o necesidades de forma innovadora.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Pop culture art</h1>
+
+      <img src="img/cap.png" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Realizamos una obra artística en equipo, en la que representamos un ícono de la cultura popular: 
+        el Capitán América. La actividad nos permitió expresar ideas mediante recursos visuales y simbólicos 
+        relacionados con la identidad, los valores y la influencia de la cultura moderna. 
+        Esta experiencia se vincula con la competencia de creatividad y sensibilización, al promover la expresión artística, 
+        la apreciación cultural y la reflexión a través del arte.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Creación de páginas web</h1>
+
+      <img src="img/pag.png" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>En este proyecto, diseñamos y creamos una página web utilizando HTML y herramientas de inteligencia artificial. 
+        Además, personalizamos el diseño de la página según nuestras preferencias, lo que permitió aplicar nuestra creatividad 
+        para lograr un producto visualmente atractivo y funcional. Este proceso involucró pensar de manera innovadora, adaptando 
+        elementos tecnológicos a nuestras necesidades, lo que fortaleció tanto nuestra creatividad como nuestra sensibilidad al 
+        trabajar con un producto digital que refleja nuestras ideas y valores.</p>
+    </div>
+
+    <div class="pilar">
+        Pilar 6: Creatividad y sensibilización artística</div>
+
+    <div class="nav">
+      <a href="actividad7.html">Siguiente actividad</a>
+     </div>
+  </div>
+</body>
+</html>
+

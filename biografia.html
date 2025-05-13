@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biografía - Frida Camila Jorge Aldaco</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to right, #7f8ff4, #c7c9f7);
+      display: flex;
+      min-height: 100vh;
+      color: #333;
+    }
+
+    .sidebar {
+      background-color: #5f6cd9;
+      width: 260px;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      box-shadow: 4px 0 10px rgba(0,0,0,0.1);
+    }
+
+    .sidebar img {
+      border-radius: 50%;
+      width: 110px;
+      height: 110px;
+      object-fit: cover;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .sidebar h3 {
+      color: white;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+    }
+
+    .sidebar p {
+      font-size: 0.9rem;
+      color: #e2e6ff;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+
+    .sidebar a {
+      display: block;
+      margin-top: 10px;
+      padding: 10px;
+      width: 100%;
+      text-align: center;
+      background-color: #ffffff;
+      color: #5f6cd9;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .sidebar a:hover {
+      background-color: #dde0fc;
+      transform: scale(1.05);
+    }
+
+    .main-content {
+      flex: 1;
+      padding: 50px 40px;
+      background-color: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      animation: fadeIn 1s ease-out;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .main-content h1 {
+      text-align: center;
+      color: #2c3e50;
+      margin-bottom: 40px;
+      font-size: 2.7rem;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 12px;
+      padding: 25px;
+      margin-bottom: 25px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+    }
+
+    .card h3 {
+      color: #5f6cd9;
+      margin-bottom: 15px;
+    }
+
+    .card p {
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <img src="img/photoyo.jpeg" alt="Foto de Frida" />
+    <h3>Frida Camila Jorge Aldaco</h3>
+    <p>Estudiante de 6to semestre de preparatoria</p>
+    <a href="index.html">Portada</a>
+    <a href="act1.html">Evidencias</a>
+  </div>
+
+  <div class="main-content">
+    <h1>BIOGRAPHY</h1>
+
+    <div class="card">
+      <h3>My Story</h3>
+<p>
+  My name is Frida Camila Jorge Aldaco and I am 18 years old. I was born and raised in the city of Irapuato, in Guanajuato, Mexico.
+  I am currently in the sixth semester of high school at Colegio Interamericano. Since I joined this institution,
+  I have had the opportunity to experience enriching educational moments that have strengthened my love for learning
+  and my desire for self-improvement.
+</p>
+</div>
+
+<div class="card">
+  <h3>My Passion</h3>
+  <p>
+    I am especially interested in the world of mechanical and electrical engineering and how its application can improve our daily lives.
+    I’m passionate about understanding how systems, machines, and processes work, as well as finding creative solutions to technical problems.
+  </p>
+</div>
+
+<div class="card">
+  <h3>My Approach</h3>
+  <p>
+    I want to combine technological innovation with social and environmental responsibility. I’m motivated to develop projects that contribute
+    to industrial progress, always maintaining an ethical, sustainable, and human-centered perspective.
+  </p>
+</div>
+   <div class="card">
+  <h3>My Vision</h3>
+  <p>
+    I dream of studying mechanical and electrical engineering at a reputable university. I would like to specialize in the industrial field,
+    learning about mechanical systems design, automation, and manufacturing so I can contribute to the technological and economic development
+    of the state—especially considering the industrial potential due to the strategic location of our city.
+  </p>
+</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Competencia 4</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, rgba(127, 143, 244, 0.6), rgba(255, 255, 255, 0.6)), url('img/portada.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh; /* Aseguramos que la página ocupe toda la altura */
+      padding-top: 20px; /* Agregamos un poco de espacio desde la parte superior */
+    }
+
+    .actividad {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 850px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 50px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1s ease;
+    }
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      animation: imagePop 1.3s ease;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .descripcion, .pilar {
+      font-size: 17px;
+      color: #5e5e5e;
+      margin: 20px 0;
+      text-align: justify;
+    }
+
+    .pilar {
+      font-style: italic;
+      color: #7f8ff4;
+      text-align: right;
+    }
+
+    .nav {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      text-decoration: none;
+      background-color: #7f8ff4;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #5f6cd9;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes imagePop {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="actividad">
+      <h1>Visita a la UVAQ</h1>
+
+      <img src="img/uvaq.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Durante esta actividad realizamos una visita guiada a una universidad junto a nuestros compañeros de clase. 
+        Exploramos espacios académicos, conocimos nuevas áreas de estudio y compartimos la experiencia en un ambiente de respeto, 
+        colaboración y entusiasmo. Esta actividad se relaciona con la competencia de afectividad sana y constructiva, ya que nos 
+        permitió fortalecer los vínculos entre nosotros, practicar la empatía, comunicarnos de forma positiva y disfrutar de una 
+        experiencia significativa que nos motiva a seguir creciendo juntos, tanto académica como emocionalmente.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Viaje a Guanajuato</h1>
+
+      <img src="img/vgto.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Previo a nuestra llegada al Festival Cervantino, visitamos una hacienda donde convivimos y compartimos experiencias como grupo.
+         Posteriormente, disfrutamos juntos de expresiones culturales y artísticas en el centro de Guanajuato. Esta actividad permitió 
+         fortalecer los lazos entre compañeros, vivir nuevas experiencias en grupo, y reforzar el respeto, la empatía y la alegría de 
+         compartir, elementos clave para desarrollar una afectividad sana y constructiva.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Organización de la kermese de día de muertos</h1>
+
+      <img src="img/ker.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>
+        Durante la organización de la kermés escolar, especialmente en la casa del terror, 
+        trabajamos de forma colaborativa y respetuosa con nuestros compañeros. Compartimos ideas, 
+        distribuimos tareas, y enfrentamos desafíos con actitud positiva. Esta experiencia fomentó 
+        un ambiente de confianza, empatía y cooperación, fortaleciendo una afectividad sana y constructiva al 
+        convivir de manera armoniosa y alegre con toda la comunidad estudiantil.
+      </p>
+    </div>
+
+    <div class="pilar">
+        Pilar 4: Afectividad sana y constructiva
+    </div>
+
+    <div class="nav">
+      <a href="actividad5.html">Siguiente actividad</a>
+      </div>
+  </div>
+</body>
+</html>
+

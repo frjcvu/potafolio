@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Competencia 2</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, rgba(127, 143, 244, 0.6), rgba(255, 255, 255, 0.6)), url('img/portada.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh; /* Aseguramos que la página ocupe toda la altura */
+      padding-top: 20px; /* Agregamos un poco de espacio desde la parte superior */
+    }
+
+    .actividad {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 850px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 50px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1s ease;
+    }
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      animation: imagePop 1.3s ease;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .descripcion, .pilar {
+      font-size: 17px;
+      color: #5e5e5e;
+      margin: 20px 0;
+      text-align: justify;
+    }
+
+    .pilar {
+      font-style: italic;
+      color: #7f8ff4;
+      text-align: right;
+    }
+
+    .nav {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      text-decoration: none;
+      background-color: #7f8ff4;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #5f6cd9;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes imagePop {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="actividad">
+      <h1>Pirámide de Maslow</h1>
+
+      <img src="img/maslow.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>En esta actividad analizamos y representamos la Pirámide de Maslow, 
+        la cual clasifica las necesidades humanas desde las más básicas, como la alimentación y el descanso, 
+        hasta las más elevadas, como la autoestima y la autorrealización. Al reflexionar sobre estas necesidades,
+         comprendimos la importancia de atender nuestro bienestar físico, emocional y mental para lograr un desarrollo personal integral. 
+         Esta actividad se relaciona directamente con la competencia de cuidado personal y formación de carácter, 
+         ya que nos ayuda a identificar lo que necesitamos para crecer como personas, tomar decisiones más conscientes, 
+         y fortalecer nuestra identidad, empatía y valores.
+
+      </p>
+    </div>
+
+    <div class="actividad">
+      <h1>Los cuatro acuerdos</h1>
+
+      <img src="img/4acuerdos.jpg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Durante varias sesiones leímos el libro Los cuatro acuerdos de Don Miguel Ruiz y realizamos resúmenes por 
+        capítulo como forma de asegurar la comprensión del mensaje. Esta actividad se vincula con la competencia de 
+        cuidado personal y formación de carácter, ya que cada uno de los acuerdos promueve el desarrollo de la conciencia, 
+        la autoobservación y el fortalecimiento del carácter a través de principios éticos y emocionales.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Vision board</h1>
+
+      <img src="img/visionboard.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Elaboramos un vision board en el que representamos nuestras metas, aspiraciones y deseos para el ciclo escolar, 
+        a través de imágenes, frases y símbolos. Esta actividad está directamente relacionada con la competencia de cuidado 
+        personal y formación de carácter, ya que fomenta la introspección, la planificación personal y el compromiso con
+         nuestro propio desarrollo emocional y académico.
+      </p>
+    </div>
+    
+    
+    <div class="pilar">
+        Pilar 2: Cuidado personal y formación de carácter.
+       </div>
+
+    <div class="nav">
+      <a href="actividad3.html">Siguiente actividad</a>
+       </div>
+  </div>
+</body>
+</html>
+

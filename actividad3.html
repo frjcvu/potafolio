@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Competencia 3</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom right, rgba(127, 143, 244, 0.6), rgba(255, 255, 255, 0.6)), url('img/portada.jpg') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      min-height: 100vh; /* Aseguramos que la página ocupe toda la altura */
+      padding-top: 20px; /* Agregamos un poco de espacio desde la parte superior */
+    }
+
+    .actividad {
+      background-color: rgba(255, 255, 255, 0.95);
+      max-width: 850px;
+      width: 90%;
+      margin: 0 auto;
+      padding: 50px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+      animation: fadeInUp 1s ease;
+    }
+
+    img {
+      width: 100%;
+      max-width: 380px;
+      height: auto;
+      display: block;
+      margin: 0 auto 30px auto;
+      border-radius: 14px;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+      animation: imagePop 1.3s ease;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: #2c3e50;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .descripcion, .pilar {
+      font-size: 17px;
+      color: #5e5e5e;
+      margin: 20px 0;
+      text-align: justify;
+    }
+
+    .pilar {
+      font-style: italic;
+      color: #7f8ff4;
+      text-align: right;
+    }
+
+    .nav {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .nav a {
+      text-decoration: none;
+      background-color: #7f8ff4;
+      color: white;
+      padding: 10px 25px;
+      border-radius: 8px;
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .nav a:hover {
+      background-color: #5f6cd9;
+      transform: scale(1.05);
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes imagePop {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+    <div class="actividad">
+      <h1>Pop culture podcast</h1>
+
+      <img src="img/pop.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Después de una exposición de diversas obras artísticas, realizamos un podcast en el que entrevistamos a un familiar, 
+        con preguntas enfocadas en su experiencia frente a las obras: cuál le gustó más, qué sintió al verlas y qué le transmitieron. 
+        Esta actividad se relaciona con la competencia de búsqueda de la verdad, ya que nos permitió indagar en las emociones y 
+        pensamientos de otra persona, comprendiendo cómo el arte puede despertar interpretaciones únicas y auténticas. A través de 
+        este diálogo reflexivo, valoramos la expresión personal como medio para acercarnos a distintas formas de verdad, más allá 
+        de lo objetivo, desarrollando también nuestra capacidad de escucha, análisis y empatía.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Visita al Senado de la República</h1>
+
+      <img src="img/cdmx.jpeg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Visitamos el Senado de la República, donde aprendimos sobre su estructura, 
+        funciones y figuras históricas. Esta experiencia se relaciona con la competencia de búsqueda de la verdad, 
+        al fomentar el pensamiento crítico sobre la política, los valores democráticos, y el papel de las instituciones 
+        en la construcción de una sociedad justa.</p>
+    </div>
+
+    <div class="actividad">
+      <h1>Lectura: Autoliberación interior</h1>
+
+      <img src="img/autointe.jpg" alt="Imagen de la actividad" />
+  
+
+    <div class="descripcion">
+      <p>Iniciamos la lectura del libro Autoliberación Interior, que nos invita a cuestionar nuestras creencias y patrones 
+        mentales para liberarnos de las limitaciones autoimpuestas. Este proceso de reflexión nos permitió buscar la verdad interna,
+         identificando y desafiando aquellas creencias que nos impedían avanzar, lo cual es fundamental para un crecimiento personal auténtico.
+          A través de esta lectura, nos adentramos en un camino de autoconocimiento profundo y de búsqueda de una verdad más consciente 
+          sobre nuestra propia vida.</p>
+    </div>
+
+    <div class="pilar">
+      Pilar 3: Búsqueda de la verdad    </div>
+
+    <div class="nav">
+      <a href="actividad4.html">Siguiente actividad</a>
+     </div>
+  </div>
+</body>
+</html>
